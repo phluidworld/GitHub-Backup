@@ -4,6 +4,12 @@
 
 GitHub-Backup makes a local backup copy of all of a github user's (or github organization's) repositories.
 
+## Phluid
+
+```bash
+python3 ./github_backup.py phluidworld ../back -o phluidworld -t http -p <access_token>
+```
+
 ## Dependencies
 
 GitHub-Backup requires the `PyGitHub` Python package for the GitHub API v3.
@@ -98,17 +104,15 @@ You can generate a dedicated personal access token instead of using your GitHub 
 Follow the steps described [here in the GitHub documentation](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) and use the token instead of your password.
 Using a PAT can also work around issues when two factor authentication (TFA) is enabled on your account.
 
-
 ## Why this software exists
 
 This software is useful in many cases:
 
-  - GitHub suddenly explodes.
-  - GitHub goes out of business.
-  - Your corporation's backup policies are more stringent than GitHub's.
-  - You have spotty/no internet access - perhaps you'd like to have all of your repositories available to code on while you ride the train?
-  - You are paranoid tinfoil-hat wearer who needs to back up everything in triplicate on a variety of outdated tape media.
-
+- GitHub suddenly explodes.
+- GitHub goes out of business.
+- Your corporation's backup policies are more stringent than GitHub's.
+- You have spotty/no internet access - perhaps you'd like to have all of your repositories available to code on while you ride the train?
+- You are paranoid tinfoil-hat wearer who needs to back up everything in triplicate on a variety of outdated tape media.
 
 ## Questions, Improvements, Etc
 
@@ -116,13 +120,13 @@ If you have any improvements, I'm happy, (grateful, in fact) to entertain pull r
 
 ## Contributors
 
-Idea/original implementation by 
+Idea/original implementation by
 
-- Chris Lockfort (clockfort@csh.rit.edu) (Github: Clockfort)
+- Chris Lockfort (<clockfort@csh.rit.edu>) (Github: Clockfort)
   (Original idea)
 
-- Anthony Gargiulo (anthony@agargiulo.com) (Github: agargiulo)
+- Anthony Gargiulo (<anthony@agargiulo.com>) (Github: agargiulo)
   (Python version)
 
-- Steffen Vogel (post@steffenvogel.de) (Github: stv0g)
+- Steffen Vogel (<post@steffenvogel.de>) (Github: stv0g)
   (A lot of patches and improvements)
